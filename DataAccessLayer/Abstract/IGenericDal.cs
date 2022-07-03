@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    // Tüm nesneler içni tek tek Interface tanımlamaktansa bir class atamasıyla yanı methodları oluşturarak, ortak kullanabilirim. (DRY ilkesi)
-    // T Class parametresi var olan 
+    // Tüm nesneler içni tek tek Interface tanımlamaktansa bir class atamasıyla methodları oluşturarak, ortak kullanabilirim. Bu durum güncelleme ve değiştirme için kolaylık sağlar. (DRY ilkesi)
+    // T Class parametresi var olan sınıfa ait verilmesi yeterli.
     public  interface IGenericDal<T> where T:class 
     {
         void Insert(T t);
