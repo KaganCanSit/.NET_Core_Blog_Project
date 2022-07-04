@@ -33,9 +33,20 @@ namespace BusinessLayer.Concrete
             _blogDal.Update(blog);
         }
 
+        //Constructor yardımı ile IBlogDal üzerinden tanımlı diğer methodlara da erişebiliyoruz. 
+        public List<Blog> GetBlockListWithCategory()
+        {
+            return _blogDal.GetListWithCategory();
+        }
+
         public Blog GetById(int id)
         {
             return _blogDal.GetById(id);
+        }
+
+        public List<Blog> GetBlogByID(int id)
+        {
+            return _blogDal.GetListAll(x => x.BlogID == id);
         }
 
         public List<Blog> GetList()
