@@ -58,8 +58,10 @@
                         </div>
                     }
 
+                    @await Component.InvokeAsync("CommentListByBlog")
+
                     <!-- YORUMLAR VE YORUM GÖNDER KISIMLARI PARTİAL ÜZERİNDEN GELİYOR -->
-                    @await Html.PartialAsync("~/Views/Comment/CommentListByBlog.cshtml")
+                    @* @await Html.PartialAsync("~/Views/Comment/CommentListByBlog.cshtml")*@
                     @await Html.PartialAsync("~/Views/Comment/PartialAddComment.cshtml")
                     
                 </div>
