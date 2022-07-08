@@ -15,6 +15,8 @@ namespace BlogProject.Controllers
         
         public IActionResult BlogReadAll(int id)
         {
+            //Blog id'sini buradan alarak yorumların getirilmesi için BlogReadAll View'inin içerisinde gönderiyoruz.
+            ViewBag.i = id;
             var values = bm.GetBlogByID(id);
             return View(values);
         }
