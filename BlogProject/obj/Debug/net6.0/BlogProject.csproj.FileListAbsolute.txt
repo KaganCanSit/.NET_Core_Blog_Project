@@ -509,3 +509,7 @@ C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProje
 C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\BusinessLayer.pdb
 C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\DataAccessLayer.pdb
 C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\obj\Debug\net6.0\BlogProject.MvcApplicationPartsAssemblyInfo.cs

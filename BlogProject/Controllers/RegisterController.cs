@@ -1,6 +1,8 @@
 ﻿using BusinessLayer.Concrete;
+using BusinessLayer.ValidationRules;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogProject.Controllers
@@ -22,10 +24,26 @@ namespace BlogProject.Controllers
         [HttpPost]
         public IActionResult Index(Writer p)
         {
-            p.WriterStatus = true;
-            p.WriterAbout = "Deneme Test";
-            wm.WriterAdd(p);
-            return RedirectToAction("Index", "Blog");
+            //Kontrol için oluşturduğumuz class ile bir nesne oluşturuyoruz. Oluşturduğumuz nesne aracılığyla Writer parametresini göndererek kontrol sağlıyoruz.
+            WriterValidator wv = new WriterValidator();
+            ValidationResult results = wv.Validate(p);
+
+            if(results.IsValid)
+            {
+                p.WriterStatus = true;
+                p.WriterAbout = "Deneme Test";
+                wm.WriterAdd(p);
+                return RedirectToAction("Index", "Blog");
+            }
+            else
+            {
+                //Hata varsa hatanın gerçekleştiği özelliğin ismi ve hata değerini dön.
+                foreach(var item in results.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+            }
+            return View();
         }
     }
 }
