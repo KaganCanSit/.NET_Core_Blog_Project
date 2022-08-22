@@ -18,5 +18,7 @@ namespace BusinessLayer.Abstract
 
         //Abstract içerisinde Generix Repository dışında Blog için özel olarak tanımladığımız ve içerisini EntityFremework içerisinde dolduarark oluşturduğumuz methodu burada çağırıyoruz.
         List<Blog> GetBlockListWithCategory();
+
+        List<Blog> GetBlogListByWriter(int id);
     }
 }
