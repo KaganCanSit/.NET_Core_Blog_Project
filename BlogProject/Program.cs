@@ -13,6 +13,9 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+//404 sayfasi icin düzenlemeler - code / controller tarafindaki parametreyle ayni olmali
+app.UseStatusCodePagesWithReExecute("/ErrorPage/Error1", "?code={0}");
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
