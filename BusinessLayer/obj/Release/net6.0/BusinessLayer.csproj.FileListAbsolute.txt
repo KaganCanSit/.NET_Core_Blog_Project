@@ -1,0 +1,17 @@
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\bin\Release\net6.0\BusinessLayer.deps.json
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\bin\Release\net6.0\BusinessLayer.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\bin\Release\net6.0\BusinessLayer.pdb
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\bin\Release\net6.0\DataAccessLayer.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\bin\Release\net6.0\EntityLayer.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\bin\Release\net6.0\DataAccessLayer.pdb
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\bin\Release\net6.0\EntityLayer.pdb
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\obj\Release\net6.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\obj\Release\net6.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\obj\Release\net6.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\obj\Release\net6.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\obj\Release\net6.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\obj\Release\net6.0\BusinessLayer.csproj.CopyComplete
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\obj\Release\net6.0\BusinessLayer.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\obj\Release\net6.0\refint\BusinessLayer.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\obj\Release\net6.0\BusinessLayer.pdb
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BusinessLayer\obj\Release\net6.0\ref\BusinessLayer.dll

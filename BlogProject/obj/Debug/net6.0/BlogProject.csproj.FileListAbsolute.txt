@@ -454,8 +454,6 @@ C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProje
 C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll

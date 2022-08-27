@@ -1,0 +1,17 @@
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\bin\Release\net6.0\DataAccessLayer.deps.json
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\bin\Release\net6.0\DataAccessLayer.runtimeconfig.json
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\bin\Release\net6.0\DataAccessLayer.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\bin\Release\net6.0\DataAccessLayer.pdb
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\bin\Release\net6.0\EntityLayer.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\bin\Release\net6.0\EntityLayer.pdb
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\obj\Release\net6.0\refint\DataAccessLayer.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.pdb
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\obj\Release\net6.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\DataAccessLayer\obj\Release\net6.0\ref\DataAccessLayer.dll
