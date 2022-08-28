@@ -6,7 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddSession();
 
 //Authetication Islemi - Giris Islemi
 builder.Services.AddMvc(config =>
@@ -42,6 +41,9 @@ app.UseStatusCodePagesWithReExecute("/ErrorPage/Error1", "?code={0}");
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+//Giris Authentication
+app.UseAuthentication();
 
 app.UseRouting();
 
