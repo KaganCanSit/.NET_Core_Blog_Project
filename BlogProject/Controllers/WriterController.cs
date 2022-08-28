@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BlogProject.Controllers
 {
     //Kullanici yetkisi bulunmadan goruntulenmemesini sagliyor.
-    [Authorize]
+    //[Authorize]
 
     public class WriterController : Controller
     {
