@@ -22,5 +22,14 @@ namespace DataAccessLayer.EntityFramework
                 return c.Blogs.Include(x=>x.Category).ToList();
             }
         }
+
+        public List<Blog> GetListWithCategoryByWriter(int id)
+        {
+            using (var c = new Context())
+            {
+                //Include -> EntityFrameworkCore kütüphanesi içerisinde geliyor.Category Id ile eşleyerek Category Adını döndürüyoruz.
+                return c.Blogs.Include(x => x.Category).Where(x=>x.WriterID == id).ToList();
+            }
+        }
     }
 }
