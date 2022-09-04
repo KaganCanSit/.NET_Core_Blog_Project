@@ -4,6 +4,7 @@ using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,21 +17,6 @@ namespace BusinessLayer.Concrete
         public BlogManager(IBlogDal blogDal)
         {
             _blogDal = blogDal;
-        }
-
-        public void BlogAdd(Blog blog)
-        {
-            _blogDal.Insert(blog);
-        }
-
-        public void BlogDelete(Blog blog)
-        {
-            _blogDal.Delete(blog);
-        }
-
-        public void BlogUpdate(Blog blog)
-        {
-            _blogDal.Update(blog);
         }
 
         //Constructor yardımı ile IBlogDal üzerinden tanımlı diğer methodlara da erişebiliyoruz. 
@@ -62,6 +48,26 @@ namespace BusinessLayer.Concrete
         public List<Blog> GetBlogListByWriter(int id)
         {
             return _blogDal.GetListAll(x => x.WriterID == id);
+        }
+
+        public void TAdd(Blog t)
+        {
+            _blogDal.Insert(t);
+        }
+
+        public void TDelete(Blog t)
+        {
+            _blogDal.Delete(t);
+        }
+
+        public void TUpdate(Blog t)
+        {
+            _blogDal.Update(t);
+        }
+
+        List<Category> IGenericService<Blog>.GetList()
+        {
+            throw new NotImplementedException();
         }
     }
 }
