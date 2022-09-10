@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Em4Did8igt+9qxryyIaN0QqU2Kkn3O+Ug1w7wdJF3mo=",
+  "Hash": "TAKAYWsYXF1oKpArhOINXnUvczZ/kL7jbnzaDOaQRas=",
   "Source": "BlogProject",
   "BasePath": "_content/BlogProject",
   "Mode": "Default",
@@ -5030,6 +5030,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\writer\\screenshot.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\BlogProject\\wwwroot\\WriterImageFiles\\111813c7-0126-43a6-abda-1168a2d45dcf.JPG",
+      "SourceId": "BlogProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\BlogProject\\wwwroot\\",
+      "BasePath": "_content/BlogProject",
+      "RelativePath": "WriterImageFiles/111813c7-0126-43a6-abda-1168a2d45dcf.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\WriterImageFiles\\111813c7-0126-43a6-abda-1168a2d45dcf.JPG"
     }
   ]
 }
