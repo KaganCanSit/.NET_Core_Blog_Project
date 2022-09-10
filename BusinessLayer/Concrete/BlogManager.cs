@@ -69,7 +69,7 @@ namespace BusinessLayer.Concrete
             _blogDal.Update(t);
         }
 
-        List<Category> IGenericService<Blog>.GetList()
+        List<Blog> IGenericService<Blog>.GetList()
         {
             throw new NotImplementedException();
         }

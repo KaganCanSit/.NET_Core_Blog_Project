@@ -12,7 +12,7 @@ namespace BusinessLayer.Abstract
         void TAdd(T t);
         void TDelete(T t);
         void TUpdate(T t); 
-        List<Category> GetList();
+        List<T> GetList();
         T TGetById(int id);
     }
 }
