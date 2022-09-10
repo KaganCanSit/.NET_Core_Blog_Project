@@ -1,0 +1,12 @@
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\API\bin\Release\net6.0\API.deps.json
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\API\bin\Release\net6.0\API.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\API\bin\Release\net6.0\API.pdb
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\API\obj\Release\net6.0\API.csproj.AssemblyReference.cache
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\API\obj\Release\net6.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\API\obj\Release\net6.0\API.AssemblyInfoInputs.cache
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\API\obj\Release\net6.0\API.AssemblyInfo.cs
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\API\obj\Release\net6.0\API.csproj.CoreCompileInputs.cache
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\API\obj\Release\net6.0\API.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\API\obj\Release\net6.0\refint\API.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\API\obj\Release\net6.0\API.pdb
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\API\obj\Release\net6.0\ref\API.dll
