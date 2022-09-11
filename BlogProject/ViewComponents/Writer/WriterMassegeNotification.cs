@@ -6,9 +6,14 @@ namespace BlogProject.ViewComponents.Writer
 {
     public class WriterMassegeNotification : ViewComponent
     {
+        MessageManager mm = new MessageManager(new EfMessageRepository());
+
         public IViewComponentResult Invoke()
-        { 
-           return View();
+        {
+            //Session eklendiğinde değiştirilecek
+            string p = "kagancansit@hotmail.com";
+            var values = mm.GetInboxListByWriter(p);
+           return View(values);
         }
     }
 }
