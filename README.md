@@ -1,3 +1,4 @@
 # .NET Core - MSSQL Temelli Blog Projesi
 
-Web alanına dair .NET üzerine kavramsal fikir sahibi olmak ve küçük bir demo ile pekiştirmek amacıyla Murat Yücedağ'a ait olan <a href="https://www.youtube.com/playlist?list=PLKnjBHu2xXNNkinaVhPqPZG0ubaLN63ci">buradaki dersleri</a> takip ederek projeyi ilerletiyorum. Daha sonrasında kendim de eklemeler yaparak geliştirmeyi hedefliyorum.
+A blog project that I developed in line with Murat Yücedağ's lecture series, which I followed to gain information on .Net Core and MVC. I want to make my own improvements from the next process.
+Lesson videos on youtube <a href="https://www.youtube.com/playlist?list=PLKnjBHu2xXNNkinaVhPqPZG0ubaLN63ci">here.</a>
