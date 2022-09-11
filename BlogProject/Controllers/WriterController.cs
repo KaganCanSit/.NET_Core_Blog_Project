@@ -44,7 +44,6 @@ namespace BlogProject.Controllers
             return View();
         }
 
-        [AllowAnonymous]
         public PartialViewResult WriterNavbarPartial()
         {
             return PartialView();
@@ -55,15 +54,16 @@ namespace BlogProject.Controllers
             return PartialView();
         }
 
-        [AllowAnonymous]
         [HttpGet]
         public IActionResult WriterEditProfile()
         {
-            var writervalues = wm.TGetById(1);
+            Context c = new Context();
+            var usermail = User.Identity.Name;
+            var writerID = c.Writers.Where(x=>x.WriterMail == usermail).Select(y=> y.WriterID).FirstOrDefault();
+            var writervalues = wm.TGetById(writerID);
             return View(writervalues);
         }
 
-        [AllowAnonymous]
         [HttpPost]
         public IActionResult WriterEditProfile(Writer p)
         {
@@ -84,14 +84,12 @@ namespace BlogProject.Controllers
             return View();
         }
 
-        [AllowAnonymous]
         [HttpGet]
         public IActionResult WriterAdd()
         {
             return View();
         }
 
-        [AllowAnonymous]
         [HttpPost]
         public IActionResult WriterAdd(AddProfileImage p)
         {
