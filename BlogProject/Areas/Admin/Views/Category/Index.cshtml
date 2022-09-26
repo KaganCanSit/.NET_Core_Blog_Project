@@ -1,6 +1,7 @@
 ﻿@using X.PagedList
 @using X.PagedList.Mvc.Core
 @model IPagedList<EntityLayer.Concrete.Category>
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/AdminLayout.cshtml";
@@ -30,5 +31,7 @@
     }
 </table>
 <br />
+<a href="/Admin/Category/AddCategory" class="btn btn-primary" >Kategori Ekle</a>
+<br /><br />
 <!-- Controller icerisinde tanimladigimiz parametreyi degistiriyoruz. Bu sayede baslayacagi noktayi belirliyoruz. 1-4 / 4-7 gibi-->
 @Html.PagedListPager((IPagedList)Model, page=>Url.Action("Index",new {page}))
