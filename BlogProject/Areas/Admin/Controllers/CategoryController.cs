@@ -49,5 +49,12 @@ namespace BlogProject.Areas.Admin.Controllers
             }
             return View();
         }
+
+        public IActionResult CategoryDelete(int id)
+        {
+            var value = cm.TGetById(id);
+            cm.TDelete(value);
+            return RedirectToAction("Index");
+        }
     }
 }
