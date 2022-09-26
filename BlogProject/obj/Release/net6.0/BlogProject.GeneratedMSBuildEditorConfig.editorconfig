@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/kagan/Desktop/BlogProjesi_.NETCore_5.0/.NET_Core_Blog_Project/BlogProject/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kagan/Desktop/BlogProjesi_.NETCore_5.0/.NET_Core_Blog_Project/BlogProject/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
