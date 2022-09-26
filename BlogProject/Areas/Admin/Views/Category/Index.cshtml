@@ -1,5 +1,6 @@
-﻿@using EntityLayer.Concrete
-@model List<Category>
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<EntityLayer.Concrete.Category>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/AdminLayout.cshtml";
@@ -11,6 +12,7 @@
     <tr>
         <th>#</th>
         <th>Kategori Adı</th>
+        <th>Kategorinin Anlık Durumu</th>
         <th>Pasif Yap</th>
         <th>Aktif Yap</th>
         <th>Düzenle</th>
@@ -20,9 +22,13 @@
         <tr>
             <th>@item.CategoryID</th>
             <td>@item.CategoryName</td>
+            <td>@item.CategoryStatus</td>
             <td><a href="#" class="btn btn-danger"> Pasif Yap</a></td>
             <td><a href="#" class="btn btn-success"> Aktif Yap</a></td>
             <td><a href="#" class="btn btn-info"> Düzenle  </a></td>
         </tr>
     }
 </table>
+<br />
+<!-- Controller icerisinde tanimladigimiz parametreyi degistiriyoruz. Bu sayede baslayacagi noktayi belirliyoruz. 1-4 / 4-7 gibi-->
+@Html.PagedListPager((IPagedList)Model, page=>Url.Action("Index",new {page}))
