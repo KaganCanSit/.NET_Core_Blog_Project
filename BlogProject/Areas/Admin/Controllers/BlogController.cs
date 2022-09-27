@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BlogProject.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class BlogController : Controller
     {
         public IActionResult ExportStaticExcelBlogList()
@@ -28,7 +29,7 @@ namespace BlogProject.Areas.Admin.Controllers
                 {
                     workbook.SaveAs(stream);
                     var content = stream.ToArray();
-                    return File(content, "application/vnd.opexmlformats - officedocument.spreadsheetml.sheet", "Calisma1.xlsx");
+                    return File(content, "application/vnd.opexmlformats-officedocument.spreadsheetml.sheet", "Calisma1.xlsx");
                 }
             }
         }
@@ -42,6 +43,11 @@ namespace BlogProject.Areas.Admin.Controllers
                 new BlogModel{ID=3, BlogName="2020 Olimpiyatları"}
             };
             return bm;
+        }
+
+        public IActionResult BlogListExcel()
+        {
+            return View();
         }
     }
 }

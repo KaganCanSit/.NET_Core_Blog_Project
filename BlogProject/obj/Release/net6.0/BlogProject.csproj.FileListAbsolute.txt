@@ -277,3 +277,7 @@ C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProje
 C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Release\net6.0\JetBrains.Annotations.dll
 C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Release\net6.0\X.PagedList.dll
 C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Release\net6.0\X.PagedList.Mvc.Core.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Release\net6.0\ClosedXML.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Release\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Release\net6.0\ExcelNumberFormat.dll
+C:\Users\kagan\Desktop\BlogProjesi_.NETCore_5.0\.NET_Core_Blog_Project\BlogProject\bin\Release\net6.0\System.IO.Packaging.dll
