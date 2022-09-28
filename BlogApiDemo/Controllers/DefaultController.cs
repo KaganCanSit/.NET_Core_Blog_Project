@@ -17,5 +17,11 @@ namespace BlogApiDemo.Controllers
             var value = c.Employees.ToList();
             return Ok(value);
         }
+
+        [HttpPost]
+        public IActionResult EmployeeAdd()
+        {
+            return Ok();
+        }
     }
 }
