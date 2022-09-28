@@ -14,21 +14,22 @@ namespace BlogProject.Areas.Admin.Controllers
         public IActionResult CategoryChart()
         {
             List<CategoryClass> list = new List<CategoryClass>();
-            list.Add(new CategoryClass { 
-                CategoryName="Teknoloji", 
-                CategoryCount=10
+            list.Add(new CategoryClass
+            {
+                categoryname = "Teknoloji",
+                categorycount = 14
             });
             list.Add(new CategoryClass
             {
-                CategoryName = "Yazılım",
-                CategoryCount = 14
+                categoryname = "Yazılım",
+                categorycount = 5
             });
             list.Add(new CategoryClass
             {
-                CategoryName = "Spor",
-                CategoryCount = 5
+                categoryname = "Spor",
+                categorycount = 2
             });
-            return Json(new {jsonList = list}); 
+            return Json(new { jsonlist = list });
         }
     }
 }
