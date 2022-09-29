@@ -19,7 +19,7 @@ namespace BlogProject.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View();
+            return View(new UserSignUpViewModel());
         }
 
         [HttpPost]

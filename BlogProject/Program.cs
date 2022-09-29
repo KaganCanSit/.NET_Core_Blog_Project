@@ -8,7 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 //Identity icin ekleme
 builder.Services.AddDbContext<Context>();
-builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<DataAccessLayer.Concrete.Context>();
+builder.Services.AddIdentity<AppUser, AppRole>(x =>
+{
+    x.Password.RequireNonAlphanumeric = false;
+}).AddEntityFrameworkStores<DataAccessLayer.Concrete.Context>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSession();
@@ -26,7 +29,7 @@ builder.Services.AddMvc(config =>
 builder.Services.AddMvc();
 builder.Services.AddAuthentication(
     CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(x=>
+    .AddCookie(x =>
     {
         x.LoginPath = "/Login/Index";
     }
