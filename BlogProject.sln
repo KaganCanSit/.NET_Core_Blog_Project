@@ -11,11 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAcce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{75ED5A36-2158-4257-856F-21A29E3E2877}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLayer", "CoreLayer\CoreLayer.csproj", "{03044533-350A-4BD8-831F-5A3E77392AF3}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{91F79154-6AD3-453D-8F5E-F14157975E96}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogApiDemo", "BlogApiDemo\BlogApiDemo.csproj", "{6CDE151E-2EEF-4E0F-A7CB-EAFB889025B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogApiDemo", "BlogApiDemo\BlogApiDemo.csproj", "{6CDE151E-2EEF-4E0F-A7CB-EAFB889025B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,14 +35,6 @@ Global
 		{75ED5A36-2158-4257-856F-21A29E3E2877}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75ED5A36-2158-4257-856F-21A29E3E2877}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75ED5A36-2158-4257-856F-21A29E3E2877}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03044533-350A-4BD8-831F-5A3E77392AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03044533-350A-4BD8-831F-5A3E77392AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03044533-350A-4BD8-831F-5A3E77392AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03044533-350A-4BD8-831F-5A3E77392AF3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91F79154-6AD3-453D-8F5E-F14157975E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91F79154-6AD3-453D-8F5E-F14157975E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91F79154-6AD3-453D-8F5E-F14157975E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91F79154-6AD3-453D-8F5E-F14157975E96}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6CDE151E-2EEF-4E0F-A7CB-EAFB889025B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6CDE151E-2EEF-4E0F-A7CB-EAFB889025B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CDE151E-2EEF-4E0F-A7CB-EAFB889025B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
