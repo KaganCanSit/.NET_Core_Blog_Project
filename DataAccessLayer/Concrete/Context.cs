@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace DataAccessLayer.Concrete
 {
     //IdentityDbContext - Context sinifindan miras alarak diger butun ozellikleri kullanabilir. // Miras alma icin <> icerisine sinif belirtilerek hazir tablolar degistirilebilir.
-    public class Context : IdentityDbContext<AppUser>
+    public class Context : IdentityDbContext<AppUser,AppRole,int>
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
