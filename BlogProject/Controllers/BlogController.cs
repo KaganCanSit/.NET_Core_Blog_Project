@@ -17,12 +17,14 @@ namespace BlogProject.Controllers
         CategoryManager cm = new CategoryManager(new EfCategoryRepository());
         Context c = new Context();
 
+        [AllowAnonymous]
         public IActionResult Index()
         {
             var values = bm.GetBlockListWithCategory();
             return View(values);
         }
-        
+
+        [AllowAnonymous]
         public IActionResult BlogReadAll(int id)
         {
             //Blog id'sini buradan alarak yorumların getirilmesi için BlogReadAll View'inin içerisinde gönderiyoruz.
