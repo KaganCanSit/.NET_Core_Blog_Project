@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "nNBNGyXCY8d59VzigAiO1cpQgALnN5TeY/y+FVXxMxs=",
+  "Hash": "IysZKdFwO8pGJ/SY6po8c32mwCSTQ8JHvX12P4M/qjg=",
   "Source": "BlogProject",
   "BasePath": "_content/BlogProject",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\BlogApiDemo\\BlogApiDemo.csproj",
+      "Version": 2,
+      "Source": "BlogApiDemo",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "BlogProject\\wwwroot",

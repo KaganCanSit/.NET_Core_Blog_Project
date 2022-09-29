@@ -4,14 +4,14 @@
     "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\BlogProject\\BlogProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\API\\API.csproj": {
+    "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\BlogApiDemo\\BlogApiDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\API\\API.csproj",
-        "projectName": "API",
-        "projectPath": "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\BlogApiDemo\\BlogApiDemo.csproj",
+        "projectName": "BlogApiDemo",
+        "projectPath": "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\BlogApiDemo\\BlogApiDemo.csproj",
         "packagesPath": "C:\\Users\\kagan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\API\\obj\\",
+        "outputPath": "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\BlogApiDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,6 +81,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -91,8 +120,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\API\\API.csproj": {
-                "projectPath": "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\API\\API.csproj"
+              "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\BlogApiDemo\\BlogApiDemo.csproj": {
+                "projectPath": "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\BlogApiDemo\\BlogApiDemo.csproj"
               },
               "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\BusinessLayer\\BusinessLayer.csproj": {
                 "projectPath": "C:\\Users\\kagan\\Desktop\\BlogProjesi_.NETCore_5.0\\.NET_Core_Blog_Project\\BusinessLayer\\BusinessLayer.csproj"
